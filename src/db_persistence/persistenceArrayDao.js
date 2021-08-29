@@ -51,10 +51,10 @@ class ArrayDb extends DatabaseProductoDao {
     }
   }
 
-  async updatePersistenceProducto(_id, data) {
+  async updatePersistenceProducto(data) {
     try {
-      const newProd = { _id, ...data };
-      console.log(newProd);
+      const newProd = { ...data };
+      console.log(data);
       const index = productosArray.findIndex((p) => p._id == _id);
       console.log(index);
       if (index !== -1) {

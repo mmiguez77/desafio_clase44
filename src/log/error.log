@@ -282,3 +282,21 @@
 2021-08-28T23:38:08.570Z [31merror[39m: 	Parameter "obj" to Document() must be an object, got salchica
 2021-08-29T00:30:19.486Z [31merror[39m: 	prodById is not defined
 2021-08-29T00:30:20.673Z [31merror[39m: 	prodById is not defined
+2021-08-29T20:53:31.487Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T20:56:14.424Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T20:56:26.576Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:01:41.923Z [31merror[39m: 	Cannot read property 'updateProduct' of undefined
+2021-08-29T21:01:49.108Z [31merror[39m: 	Cannot read property 'updateProduct' of undefined
+2021-08-29T21:02:10.123Z [31merror[39m: 	Cannot read property 'updateProduct' of undefined
+2021-08-29T21:16:07.129Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:17:03.087Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:21:41.442Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:24:22.700Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:25:02.051Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:25:18.875Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:25:39.981Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:25:59.443Z [31merror[39m: 	Cannot read property 'updatePersistenceProducto' of undefined
+2021-08-29T21:26:46.244Z [31merror[39m: 	Cannot read property 'updateServiceProducto' of undefined
+2021-08-29T21:29:03.199Z [31merror[39m: 	this.updateServiceProducto is not a function
+2021-08-29T21:32:32.484Z [31merror[39m: 	this.updateServiceProducto is not a function
+2021-08-29T21:33:08.386Z [31merror[39m: 	this.updateServiceProducto is not a function

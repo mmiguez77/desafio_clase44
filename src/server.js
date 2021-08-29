@@ -62,7 +62,11 @@ app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 /* -------------------- Endpoints ---------------------- */
-app.use("/api/productos", router);
+app.use("/api/productos", graphqlHTTP({
+  schema: schemaProductGQL,
+  rootValue: rootProductGQL,
+  graphiql: true,
+}));
 app.use("/mensajes", routerMsg);
 app.use("/user", usersRoutes);
 app.use("/info", infoRouter);
@@ -70,14 +74,6 @@ app.use("/randoms", randomsRouter);
 app.get("/", function (req, res) {
   res.render("index");
 });
-app.use(
-  "/graphql",
-  graphqlHTTP({
-    schema: schemaProductGQL,
-    rootValue: rootProductGQL,
-    graphiql: true,
-  })
-);
 
 /* -------------------- Web Sockets ---------------------- */
 
