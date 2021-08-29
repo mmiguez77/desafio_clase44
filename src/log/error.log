@@ -300,3 +300,33 @@
 2021-08-29T21:29:03.199Z [31merror[39m: 	this.updateServiceProducto is not a function
 2021-08-29T21:32:32.484Z [31merror[39m: 	this.updateServiceProducto is not a function
 2021-08-29T21:33:08.386Z [31merror[39m: 	this.updateServiceProducto is not a function
+2021-08-29T22:43:13.400Z [31merror[39m: 	MensajeModel is not defined
+2021-08-29T22:43:13.402Z [31merror[39m: 	Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2021-08-29T22:46:01.345Z [31merror[39m: 	MensajeModel is not defined
+2021-08-29T22:46:01.345Z [31merror[39m: 	Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2021-08-29T22:46:56.490Z [31merror[39m: 	MensajeModel is not defined
+2021-08-29T22:46:56.491Z [31merror[39m: 	Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2021-08-29T22:47:32.887Z [31merror[39m: 	MensajeModel is not defined
+2021-08-29T22:47:32.888Z [31merror[39m: 	Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2021-08-29T22:49:09.074Z [31merror[39m: 	Cannot access 'mensajes' before initialization
+2021-08-29T22:50:14.753Z [31merror[39m: 	Cannot access 'mensajes' before initialization
+2021-08-29T22:51:32.893Z [31merror[39m: 	Cannot access 'mensajes' before initialization
+2021-08-29T22:51:50.211Z [31merror[39m: 	Cannot access 'mensajes' before initialization
+2021-08-29T23:02:34.872Z [31merror[39m: 	mensaje is not defined
+2021-08-29T23:30:32.814Z [31merror[39m: 	Cannot read property 'author' of undefined
+2021-08-29T23:31:26.595Z [31merror[39m: 	Cannot read property 'author' of undefined
+2021-08-29T23:32:00.396Z [31merror[39m: 	Cannot read property 'author' of undefined
+2021-08-29T23:32:51.458Z [31merror[39m: 	Cannot read property 'author' of undefined
+2021-08-29T23:33:11.681Z [31merror[39m: 	Cannot read property 'text' of undefined
+2021-08-29T23:33:40.130Z [31merror[39m: 	Cannot read property 'text' of undefined
+2021-08-29T23:33:58.365Z [31merror[39m: 	Cannot read property 'text' of undefined
+2021-08-29T23:34:13.361Z [31merror[39m: 	Cannot read property 'text' of undefined
+2021-08-29T23:46:36.733Z [31merror[39m: 	newMsg.map is not a function
+2021-08-29T23:46:52.417Z [31merror[39m: 	newMsg.map is not a function
+2021-08-29T23:47:23.619Z [31merror[39m: 	newMsg.map is not a function
+2021-08-29T23:48:34.885Z [31merror[39m: 	(intermediate value) is not iterable
+2021-08-29T23:48:37.514Z [31merror[39m: 	(intermediate value) is not iterable
+2021-08-29T23:49:16.459Z [31merror[39m: 	newMsg.map is not a function
+2021-08-29T23:50:48.495Z [31merror[39m: 	newMsg.map is not a function
+2021-08-29T23:51:06.795Z [31merror[39m: 	msg is not defined
+2021-08-29T23:51:26.393Z [31merror[39m: 	msg is not defined

@@ -1,4 +1,5 @@
 const MongoCxn = require("../database/MongoCxn.js");
+const MensajeModel = require('../models/mensajeSchema.js');
 const logger = require("../helpers/winston.js");
 
 class BaseMensaje {

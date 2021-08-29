@@ -11,6 +11,7 @@ const logger = require("./helpers/winston.js");
 const { twilioSms } = require("./helpers/twilio.js");
 const { graphqlHTTP } = require("express-graphql");
 const { schemaProductGQL, rootProductGQL } = require("./graphql/schemaProductGQL.js");
+const { schemaMensajesGQL, rootMensajesGQL } = require("./graphql/schemaMensajesGQL.js");
 const args = require("yargs").argv;
 
 /* -------------------- Rutas ---------------------- */
@@ -67,7 +68,11 @@ app.use("/api/productos", graphqlHTTP({
   rootValue: rootProductGQL,
   graphiql: true,
 }));
-app.use("/mensajes", routerMsg);
+app.use("/mensajes", graphqlHTTP({
+  schema: schemaMensajesGQL,
+  rootValue: rootMensajesGQL,
+  graphiql: true,
+}));
 app.use("/user", usersRoutes);
 app.use("/info", infoRouter);
 app.use("/randoms", randomsRouter);

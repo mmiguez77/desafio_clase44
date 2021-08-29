@@ -5,18 +5,18 @@ const logger = require('../helpers/winston.js');
 
 async function addMsgService(data) {
     try {
+        
         const mensaje = {
             author: {
-                email: data.message.author.email,
-                nombre: data.message.author.nombre,
-                apellido: data.message.author.apellido,
-                edad: data.message.author.edad,
-                alias: data.message.author.alias,
-                avatar: data.message.author.avatar
+                email: data.email,
+                nombre: data.nombre,
+                apellido: data.apellido,
+                edad: data.edad,
+                alias: data.alias,
+                avatar: data.avatar
             },
         };
-        mensaje.text = data.message.text;
-
+        mensaje.text = data.text;
         const newMsg = await dbMensaje.addMsgPersistence(mensaje);
         return newMsg;
     } catch (error) {
@@ -27,8 +27,8 @@ async function addMsgService(data) {
 async function findAllMsgService() {
     try {
         const mensajes = await dbMensaje.findAllMsgPersistence();
-        const id = 'mensajes';
-        return (id, mensajes);
+        //const id = 'mensajes';
+        return (mensajes);
     } catch (error) {
         logger.error.error(error);
     }
