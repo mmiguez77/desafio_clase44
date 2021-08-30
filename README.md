@@ -23,7 +23,7 @@ query{<br>
     title,<br>
     price,<br>
     thumbnail<br>
-  }<br>
+  }
 }<br>
 
 - getById:<br>
@@ -33,7 +33,7 @@ query{<br>
     title,<br>
     price,<br>
     thumbnail<br>
-  }<br>
+  }
 }<br>
 
 - createProduct:<br>
@@ -46,7 +46,7 @@ mutation {<br>
     title,<br>
     price<br>
     thumbnail<br>
-  }<br>
+  }
 }<br>
 
 - updateProduct:<br>
@@ -56,18 +56,20 @@ mutation{<br>
     title:"remolacha",<br>
     price: 123,<br>
     thumbnail: "img"<br>
-  })<br>
+  })
 }<br>
 
 - deleteProduct:<br>
 mutation {<br>
   deleteProduct(_id: "612be38c4ccd7be9893c3761") -> Ejemplo _id: Type String<br>
-}<br>
+}
 
 ---
 
 ### MENSAJES
 <a name="mensajes"></a>
+
+##### Endpoint: "/mensajes"
 
 - findAllMsg<br>
 query{<br>
@@ -75,7 +77,7 @@ query{<br>
     nombre,<br>
     email,<br>
     edad<br>
-  }<br>
+  }
 }<br>
 
 - addMsg<br>
@@ -91,9 +93,5 @@ mutation{<br>
   }){<br>
     nombre,<br>
     text<br>
-  }<br>
+  }
 }<br>
-
-##### Endpoint: "/mensajes"
-
-
