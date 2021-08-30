@@ -16,83 +16,83 @@ GRAPHQL QUERYS / MUTATIONS /
 
 ##### Endpoint: "/api/productos"
 
-Query:
-- getProducts: getProducts,
-query{
-  getProducts{
-    title,
-    price,
-    thumbnail
-  }
-}
+Query:<br>
+- getProducts:<br>
+query{<br>
+  getProducts{<br>
+    title,<br>
+    price,<br>
+    thumbnail<br>
+  }<br>
+}<br>
 
-- getById: getById,
-query{
-  getById(_id:"612ad1846b787172e4859d05") -> Ejemplo _id: Type String
-  {
-    title,
-    price,
-    thumbnail
-  }
-}
+- getById:<br>
+query{<br>
+  getById(_id:"612ad1846b787172e4859d05") -> Ejemplo _id: Type String<br>
+  {<br>
+    title,<br>
+    price,<br>
+    thumbnail<br>
+  }<br>
+}<br>
 
-- createProduct: createProduct,
-mutation {
-  createProduct(
-    title: "Arroz",
-    price: 55,
-    thumbnail: "www.img.com"
-  ){
-    title,
-    price
-    thumbnail
-  }
-}
+- createProduct:<br>
+mutation {<br>
+  createProduct(<br>
+    title: "Arroz",<br>
+    price: 55,<br>
+    thumbnail: "www.img.com"<br>
+  ){<br>
+    title,<br>
+    price<br>
+    thumbnail<br>
+  }<br>
+}<br>
 
-- updateProduct: updateProduct,
-mutation{
-  updateProduct(input:{
-    _id:"612be3954ccd7be9893c3762",
-    title:"remolacha",
-    price: 123,
-    thumbnail: "img"
-  })
-}
+- updateProduct:<br>
+mutation{<br>
+  updateProduct(input:{<br>
+    _id:"612be3954ccd7be9893c3762",<br>
+    title:"remolacha",<br>
+    price: 123,<br>
+    thumbnail: "img"<br>
+  })<br>
+}<br>
 
-- deleteProduct: 
-mutation {
-  deleteProduct(_id: "612be38c4ccd7be9893c3761") -> Ejemplo _id: Type String
-}
+- deleteProduct:<br>
+mutation {<br>
+  deleteProduct(_id: "612be38c4ccd7be9893c3761") -> Ejemplo _id: Type String<br>
+}<br>
 
 ---
 
 ### MENSAJES
 <a name="mensajes"></a>
 
-- findAllMsg
-query{
-  findAllMsg{
-    nombre,
-    email,
-    edad
-  }
-}
+- findAllMsg<br>
+query{<br>
+  findAllMsg{<br>
+    nombre,<br>
+    email,<br>
+    edad<br>
+  }<br>
+}<br>
 
-- addMsg
-mutation{
-  addMsg(input:{
-    nombre: "sara",
-    email: "sara@b.com",
-    apellido: "perez",
-    edad: 20,
-    alias: "sara",
-    avatar: "img.jpg",
-    text: "Test GQL"
-  }){
-    nombre,
-    text
-  }
-}
+- addMsg<br>
+mutation{<br>
+  addMsg(input:{<br>
+    nombre: "sara",<br>
+    email: "sara@b.com",<br>
+    apellido: "perez",<br>
+    edad: 20,<br>
+    alias: "sara",<br>
+    avatar: "img.jpg",<br>
+    text: "Test GQL"<br>
+  }){<br>
+    nombre,<br>
+    text<br>
+  }<br>
+}<br>
 
 ##### Endpoint: "/mensajes"
 
